@@ -1,0 +1,360 @@
+body {
+  max-width: 50%;
+	font-family: 'Source Code Pro', monospace;
+	color: white;
+  background-color: #77C4D7;
+}
+/*First2boxes*/
+#parent {
+  display: flex;
+
+}
+#narrow {
+  font-size: 15px;
+  width: 50%;
+  margin-left: 5px;
+  padding: 10px;
+  padding-bottom: 45%; 
+  background: #E25054;
+  box-shadow: 0px 1px 8px 0px #000;
+
+}
+#wide {
+  text-align: left;
+  font-size: 15px;
+  width: 50%;
+  margin-right:5px;
+  padding: 10px;
+  background: #E25054;
+  box-shadow: 0px 1px 8px 0px #000;
+}
+
+.alignleft {
+    text-align: left;
+}
+/*Endfirst2boxes*/
+
+
+
+
+
+
+
+
+/*GorillaDoc*/
+.aapje{
+  opacity: 0.5;
+  max-width: 200px;
+  max-height: 200px;
+}
+/*codegorlladoc text*/
+.brekket {
+    text-shadow: 2px 2px 5px #000;
+}
+
+.gordoc {
+      color: #77C4D7;
+      text-shadow: 2px 2px 5px #000;
+}
+
+.classkleur {
+      color: #91C24D;
+      text-shadow: 2px 2px 5px #000;
+}
+
+.divkleur {
+    color: #E25054;
+    text-shadow: 2px 2px 5px #000
+}
+/*CorillaDoc*/
+
+/*WHITE LINES*/
+.line {
+	border:0;
+
+}
+
+
+.col-sm-6 {
+    background: #E25054;
+    font-size: 35px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px #000;
+}
+
+.colgreen {
+    background: #91C24D;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px #000;
+    /*border-radius: 95px;*/
+}
+
+
+
+/*Photolijst*/
+
+ body{
+  /*max-width: 900px;*/
+  float: none;
+  margin: auto; 
+}
+
+.toolbar {
+  background: #77C4D7;
+  border-color: black
+  margin-top: 10px;
+  text-align: center;
+}
+
+#portfolio {  
+    margin: 1rem 0;
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 2;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-width: 33.33333333333333%;
+    -moz-column-width: 33.33333333333333%;
+    column-width: 33.33333333333333%;
+}
+.tile { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+
+}
+.tile:hover { 
+
+}
+
+.scale-anm {
+  transform: scale(1);
+}
+
+
+p{ 
+  padding:10px; 
+  border-bottom: 1px #ccc dotted; 
+  text-decoration: none; 
+  font-family: lato; 
+  text-transform:uppercase; 
+  font-size: 12px; 
+  color: #333; 
+  display:block; 
+  float:left;
+}
+
+p:hover { 
+  cursor:crosshair; 
+  background: #333; 
+  color:#eee; }
+
+.tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  
+}
+
+.btn {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: crosshair;
+    display: inline-block;
+    line-height: normal;
+    padding: .5rem 5rem;
+    margin: 5px;
+    height: auto;
+    border: 1px solid;
+    box-shadow: 1px 1px 3px #000;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #fff;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+  border-color: var(--darken-2);
+  box-shadow: 1 1 1 3px var(--darken-3);
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*Photolijst einde*/
+
+
+/*Mail contact*/
+
+body {
+/*  padding-top:25px;*/
+  background-color:#77C4D7;
+/*  margin-left:10px;
+  margin-right:10px;*/
+}
+.container {
+  max-width:900px;
+  margin:0 auto;
+  text-align:center;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+/*  background-color:#FAFAFA;*/
+}
+.head {
+  font-family: 'Source Code Pro', monospace;
+  -webkit-border-radius:6px 6px 0px 0px;
+  -moz-border-radius:6px 6px 0px 0px;
+  border-radius:6px 6px 0px 0px;
+  background-color:#2ABCA7;
+  color:#FAFAFA;
+}
+h2 {
+  background-color: #E25054;
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+}
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+input:first-of-type
+{
+  margin-top:35px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  border: 1px solid #cecece;
+  background: #E25054;
+  color:#FAFAFA;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 800px;
+}
+::-webkit-input-placeholder {
+   color: #FAFAFA;
+}
+:-moz-placeholder {
+   color: #FAFAFA;  
+}
+::-moz-placeholder {
+   color: #FAFAFA; 
+}
+:-ms-input-placeholder {  
+   color: #FAFAFA;  
+}
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:#77C4D7;
+  padding: 12px 45px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+}
+button:hover, .button:hover {
+  background:#E25054;
+}
+label.error {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+/* media queries */
+@media (max-width: 700px) {
+  label.error {
+    width: 90%;
+  }
+  input, textarea {
+    width: 90%;
+  }
+  button {
+    width:90%;
+
+  }
+  body {
+  padding-top:10px;
+  }  
+}
+.message {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1.1em;
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#2ABCA7;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+/*Mail contact*/
+/*Footer*/
+footer {
+    color: #fff;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.testgit {
+  padding:10px; 
+  border: 1px #000 dotted; 
+  text-decoration: none; 
+  font-family: lato; 
+  text-transform:uppercase; 
+  font-size: 12px; 
+  text-align: center;
+  color: #000; 
+  display:block; 
+
+}
